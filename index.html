@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <h4> Harlem Code School </h4>
+ <h2> Welcome To Lesson 2</h2>
+ <div id="bodyWrap">
+	<section>
+		<h2>Javascript and the DOM</h2>	
+		<p> Now that we've rolling with HTML and CSS, it's time to 
+			start using javascript. Possibly the most powerful feature 
+			of js is it's ability to manipulate HTML and CSS. 
+		</p>
+
+		<h3>Targeting Elements</h3>	
+		<p> Let's target an element that already exists. Right below
+			this print is a div element with an id of 'jsTarget'.
+			We will leave it blank with HTML and CSS and use js
+			to control that stuff!
+		</p>
+		<i>You can copy paste all this code into your script.js
+			file anywhere inside the curly braces of the main 
+			function.
+		</i>
+
+		<div class="targeting-wrap">
+			<h4> Turn '#jsTarget' into a rectangle with js:</h4>
+			<p><code><div>
+				var targetMyDiv = document.getElementById('jsTarget');
+				<br>
+				var styleDiv = targetMyDiv.style;
+				<br>
+				<br>
+				styleDiv.width = ('200px');
+				<br>
+				styleDiv.height = ('100px');
+				<br>
+				styleDiv.border = ('3px solid red');
+				<br>
+				styleDiv.backgroundColor = ('forestgreen');
+			</div></code></p>
+
+			<div id="jsTarget"></div>
+			<div class="targeting-sidebar">
+				<h4> Code breakdown </h4>
+				<p> <<< Target element on the document w/id of 'jsTarget'
+				</p>
+				<p> <<< Make styleDiv equal to calling the style function on</p>
+				<p>'jsTarget', which we targeted with the variable targetMyDiv</p>
+				<p> <<< Now set the width to 300px</p>
+				<p> <<< Now set the height to 200px</p>
+				<p> <<< Make the border solid, 2px and red</p>
+				<p> <<< Background color of forest-green</p>
+
+			</div>
+		</div>
+
+	</section>	
+  </div>
+</body>
+<script src="script.js"></script>
+</html>

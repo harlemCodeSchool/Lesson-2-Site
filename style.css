@@ -1,0 +1,49 @@
+body > h4{
+	text-align: center;
+	background-color: black;
+	color: white;
+	width: 100%;
+}
+
+body > h2 {
+	text-align: center;
+}
+
+#bodyWrap {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+section > p {
+  padding-left: 10%;
+	width: 80%;
+}
+
+.targeting-sidebar {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+}
+
+.targeting-sidebar > h4 {
+  margin-top: 0px;
+}
+
+.targeting-sidebar > p {
+  line-height: 1.8;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: serif;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.targeting-wrap {
+  position: relative;
+}
+
+.targeting-wrap > div > code {
+  font-family: sans-serif;
+  font-size: 15px;
+}
